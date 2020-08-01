@@ -1,10 +1,16 @@
 request = require('sync-request');
 fs = require('fs');
 
-const content = get_wm_content('wo_global.txt', 'https://www.worldometers.info/coronavirus/');
+//set X hours for minimum new web scrap
+//before this time, use last txt file instead
+const minHoursForNewWebScrap = 12; 
+const baseUrl = 'https://www.worldometers.info/coronavirus/';
+
+const content = get_wm_content('wo_global.txt', baseUrl, minHoursForNewWebScrap);
+
 const casesDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-cases-daily',");
 const deathsDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-deaths-daily',");
-console.log(deathsDaily);
+
 
 function get_wm_data_chart(content, strIdentifyChart)
 {   let casesDailyStart = 0;
@@ -32,20 +38,32 @@ function get_wm_data_chart(content, strIdentifyChart)
     return dataMapped;
 }
 
-function get_wm_content(filename, url) {
-    //ler o conteudo do worldometers global para um arquivo, se não existir
+function get_wm_content(filename, url, minHours) 
+{
+    //ler o conteudo do worldometers global para um arquivo
+    //, se não existir ou se existir mas estiver expirado 
     //devolver string com o conteudo
     let fexist, content; 
-    
-    if (!fs.existsSync(filename)) {
+    let fexpired = true;
+
+    fexist = fs.existsSync(filename);
+    if (fexist) {
+        modifiedAt = fs.statSync(filename).mtimeMs;
+        difference = (Date.now() - modifiedAt) / (60*60*1000);
+        console.log('hours of last '+filename+' file: '+difference.toFixed(1));
+        fexpired = difference >= minHours;
+    }
+        
+
+    if ((!fexist) || (fexpired) ) {
         try {
             content = request('GET', url).body.toString();
             fs.writeFileSync(filename, content);
-            console.log('arquivo criado');
+            console.log('novo arquivo criado');
         } catch (e)
             {}
     } else {
-            console.log('arquivo já existe');
+            console.log('usando arquivo já existente');
             content = fs.readFileSync(filename).toString();
     }
     return content;
