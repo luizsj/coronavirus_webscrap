@@ -10,7 +10,13 @@ const content = get_wm_content('wo_global.txt', baseUrl, minHoursForNewWebScrap)
 
 const casesDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-cases-daily',");
 const deathsDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-deaths-daily',");
+const countriesList = get_wm_data_countries_list(content);
 
+function get_wm_data_countries_list(content)
+{   //search the content for table of countries
+    
+
+}
 
 function get_wm_data_chart(content, strIdentifyChart)
 {   let casesDailyStart = 0;
