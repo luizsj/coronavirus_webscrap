@@ -1,0 +1,22 @@
+{
+  "name": "coronavirus_webscrap",
+  "version": "1.0.0",
+  "description": "Node.js app for webscrapp Coronavirus data from worldometers.info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizsj/coronavirus_webscrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizsj/coronavirus_webscrap/issues"
+  },
+  "homepage": "https://github.com/luizsj/coronavirus_webscrap#readme",
+  "dependencies": {
+    "sync-request": "^6.1.0"
+  }
+}
