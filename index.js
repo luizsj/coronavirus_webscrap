@@ -26,7 +26,56 @@ function get_wm_data_countries_list_only_essential_data(objTable) {
     //now objTable is a array in which index is a country in key/value structure
     //need simplify this, getting only essential data
     //      countryName, countryLink, TotalCases, TotalDeaths, Population
-    console.log(objTable[0]);
+    //console.log(objTable[0]);
+    //Object have commas in some keys (wtf?)
+    let countriesFinal = [];
+    for (let i=0; i < objTable.length; i++)
+    //for (let i=0; i < 3; i++)
+        {   
+            let objCountry = objTable[i];
+            //console.log(objCountry);
+            //need use values(objCountry) because the country property contains a comma
+            //          and I don't know how to reference it directly -- objCountry.'Country,Other' ??? wtf ???
+            //          maybe I should treat it before use tabletojson ???
+            let values = Object.values(objCountry);
+            let valueLinkAndName = values[1];
+            
+            let country = new Object;
+            if (valueLinkAndName.includes('href'))
+                {   country = get_wm_data_countries_list_only_essential_data_return_link_and_name(valueLinkAndName);
+                    country.totalCases = parseInt(objCountry.TotalCases.replace(/,/g, ''));
+                    country.totalDeaths = parseInt(objCountry.TotalDeaths.replace(/,/g, ''));
+                    country.population = get_wm_data_countries_list_only_essential_data_return_population(objCountry.Population);
+                    countriesFinal[countriesFinal.length] = country;
+                }
+        }
+    console.log(countriesFinal);
+    console.log(countriesFinal.length +' total countries listed');
+    return countriesFinal;
+}
+
+function get_wm_data_countries_list_only_essential_data_return_population(value)
+{   //cut the href for link
+    let startValue = value.indexOf("/\">")+3;
+    //console.log(value, startValue);
+    value = value.substring(startValue, value.length-4);
+    value = parseInt(value.replace(/,/g, ''));
+    return value;
+}
+
+function get_wm_data_countries_list_only_essential_data_return_link_and_name(value)
+{
+    //cut the href for link
+    //console.log(value);
+    let startHref = value.indexOf("href")+6;
+    let endHref = value.indexOf("/\">")+1;
+    let countryLink = value.substring(startHref, endHref);
+    let countryName = value.substring(endHref+2, value.length-4);
+    //console.log(countryName, countryLink);
+    let item = new Object();
+    item.countryName = countryName;
+    item.countryLink = countryLink;
+    return item;
 }
 
 function get_wm_data_object_from_table(content, strIdentifyTable)
