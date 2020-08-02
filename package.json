@@ -18,6 +18,7 @@
   "homepage": "https://github.com/luizsj/coronavirus_webscrap#readme",
   "dependencies": {
     "html-to-json": "^0.6.0",
+    "lodash": "^4.17.19",
     "sync-request": "^6.1.0",
     "tabletojson": "^2.0.4"
   }
