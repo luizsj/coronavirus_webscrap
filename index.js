@@ -1,5 +1,7 @@
 request = require('sync-request');
 fs = require('fs');
+const {Tabletojson: tabletojson} = require('tabletojson');
+        //found at https://www.npmjs.com/package/tabletojson
 
 //set X hours for minimum new web scrap
 //before this time, use last txt file instead
@@ -14,8 +16,34 @@ const countriesList = get_wm_data_countries_list(content);
 
 function get_wm_data_countries_list(content)
 {   //search the content for table of countries
-    
+    objTable = get_wm_data_object_from_table(content, "<table id=\"main_table_countries_today\"");
+    countriesCleaned = get_wm_data_countries_list_only_essential_data(objTable);
 
+    return countriesCleaned;
+}
+
+function get_wm_data_countries_list_only_essential_data(objTable) {
+    //now objTable is a array in which index is a country in key/value structure
+    //need simplify this, getting only essential data
+    //      countryName, countryLink, TotalCases, TotalDeaths, Population
+    console.log(objTable[0]);
+}
+
+function get_wm_data_object_from_table(content, strIdentifyTable)
+{
+    const startTable = content.indexOf(strIdentifyTable);
+    //cortar o conteudo deste ponto até o final
+    content = content.substring(startTable, content.length);
+    const endTable = content.indexOf("</table>")+8;
+    const contentTable = content.substring(0, endTable);
+
+    let converted = tabletojson.convert(contentTable,  { stripHtmlFromCells: false });
+    //first index IS the table data
+    converted = converted[0];
+    //remove first index - world global data
+    converted.shift();
+
+    return converted;
 }
 
 function get_wm_data_chart(content, strIdentifyChart)
@@ -29,7 +57,7 @@ function get_wm_data_chart(content, strIdentifyChart)
     casesDailyStart = content.indexOf(strIdentifyChart);
     //cortar o conteudo deste ponto até o final
     content = content.substring(casesDailyStart, content.length);
-    //localizar a string </script> que marca o fim da função
+    //localizar a string  que marca o fim da função
     casesDailyEnd = content.indexOf('function(chart)')-15;
 
     casesDailyStart = strIdentifyChart.length;
@@ -65,11 +93,11 @@ function get_wm_content(filename, url, minHours)
         try {
             content = request('GET', url).body.toString();
             fs.writeFileSync(filename, content);
-            console.log('novo arquivo criado');
+            console.log('new file created');
         } catch (e)
             {}
     } else {
-            console.log('usando arquivo já existente');
+            console.log('use last file');
             content = fs.readFileSync(filename).toString();
     }
     return content;
