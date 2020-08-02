@@ -5,14 +5,35 @@ const {Tabletojson: tabletojson} = require('tabletojson');
 
 //set X hours for minimum new web scrap
 //before this time, use last txt file instead
-const minHoursForNewWebScrap = 12; 
+const minHoursForNewWebScrap = 48; 
 const baseUrl = 'https://www.worldometers.info/coronavirus/';
 
 const content = get_wm_content('wo_global.txt', baseUrl, minHoursForNewWebScrap);
 
 const casesDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-cases-daily',");
 const deathsDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-deaths-daily',");
+
+//only retrieves countries with a mininum of 10 deaths in total
 const countriesList = get_wm_data_countries_list(content);
+
+const countriesListWithData = get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap);
+console.log(countriesListWithData[0]);
+console.log(countriesListWithData[1]);
+
+function get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap)
+{   let i = 0;
+    
+    for (i=0; i < countriesList.length; i++)
+    //for (i=0; i < 3; i++)
+        {   let country = countriesList[i];
+            let countryName = country.countryName;
+            let filename = 'countries/'+countryName.replace(/ /g, '_')+'.txt';
+            let content = get_wm_content(filename, baseUrl+country.countryLink, minHoursForNewWebScrap);
+            countriesList[i].casesDaily = get_wm_data_chart(content, "Highcharts.chart('graph-cases-daily',");
+            countriesList[i].deathsDaily = get_wm_data_chart(content, "Highcharts.chart('graph-deaths-daily',");
+        }
+    return countriesList;
+}
 
 function get_wm_data_countries_list(content)
 {   //search the content for table of countries
@@ -30,7 +51,6 @@ function get_wm_data_countries_list_only_essential_data(objTable) {
     //Object have commas in some keys (wtf?)
     let countriesFinal = [];
     for (let i=0; i < objTable.length; i++)
-    //for (let i=0; i < 3; i++)
         {   
             let objCountry = objTable[i];
             //console.log(objCountry);
@@ -41,12 +61,13 @@ function get_wm_data_countries_list_only_essential_data(objTable) {
             let valueLinkAndName = values[1];
             
             let country = new Object;
-            if (valueLinkAndName.includes('href'))
+            if (valueLinkAndName.includes('href')) 
                 {   country = get_wm_data_countries_list_only_essential_data_return_link_and_name(valueLinkAndName);
                     country.totalCases = parseInt(objCountry.TotalCases.replace(/,/g, ''));
                     country.totalDeaths = parseInt(objCountry.TotalDeaths.replace(/,/g, ''));
                     country.population = get_wm_data_countries_list_only_essential_data_return_population(objCountry.Population);
-                    countriesFinal[countriesFinal.length] = country;
+                    if ( country.totalDeaths >= 10 )
+                        {   countriesFinal[countriesFinal.length] = country; }
                 }
         }
     console.log(countriesFinal);
@@ -107,16 +128,19 @@ function get_wm_data_chart(content, strIdentifyChart)
     //cortar o conteudo deste ponto até o final
     content = content.substring(casesDailyStart, content.length);
     //localizar a string  que marca o fim da função
-    casesDailyEnd = content.indexOf('function(chart)')-15;
-
+    casesDailyEnd = content.indexOf('function(chart)')-1;
     casesDailyStart = strIdentifyChart.length;
     contentCasesDaily = content.substring(casesDailyStart, casesDailyEnd).trim();
+    contentCasesDaily = contentCasesDaily.substring(0, contentCasesDaily.length-1);
+    
+    //console.log(contentCasesDaily);
+    
     eval(" contentJS = "+contentCasesDaily);
-
+    
     dates = contentJS.xAxis.categories;
     values = contentJS.series[0].data;
     for (let i=0; i < dates.length; i++)
-        {   dataMapped[dates[i]] = values[i];
+        {   dataMapped[dates[i]] = values[i] ? values[i] : 0;  //return 0 when value is null
         }
     return dataMapped;
 }
@@ -142,11 +166,11 @@ function get_wm_content(filename, url, minHours)
         try {
             content = request('GET', url).body.toString();
             fs.writeFileSync(filename, content);
-            console.log('new file created');
+            console.log('new file '+filename+' created');
         } catch (e)
             {}
     } else {
-            console.log('use last file');
+            console.log('use last '+filename+' file');
             content = fs.readFileSync(filename).toString();
     }
     return content;

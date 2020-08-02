@@ -1,0 +1,1581 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bolivia Coronavirus: 78,793 Cases and 3,064 Deaths - Worldometer</title>
+<meta name="description" content="Bolivia Coronavirus update with statistics and graphs: total and new cases, deaths per day, mortality and recovery rates, current active cases, recoveries, trends and timeline.">
+
+<link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<meta property="og:image" content="http://www.worldometers.info/img/worldometers-fb.jpg" />
+
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/wm16.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/bootstrap.min.js"></script>
+
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" class="init">
+		$.extend( $.fn.dataTable.defaults, {
+    responsive: true
+} );
+	
+	$(document).ready(function() {
+    $('#example2').dataTable( {
+        "scrollCollapse": true,
+		"sDom": '<"bottom"flp><"clear">',
+        "paging":         false
+    } );
+} );
+	</script>
+<script type="text/javascript" class="init">
+		$.extend( $.fn.dataTable.defaults, {
+    responsive: true
+} );
+	
+	$(document).ready(function() {
+    $('#table3').dataTable( {
+        "scrollCollapse": true,
+				 "order": [[ 1, 'desc' ]],
+		"sDom": '<"bottom"flp><"clear">',
+        "paging":         false
+    } );
+} );
+	</script>
+<script type="text/javascript" class="init">
+		$.extend( $.fn.dataTable.defaults, {
+    responsive: true
+} );
+	
+	$(document).ready(function() {
+    $('#example').dataTable( {
+        "scrollCollapse": true,
+		"searching": false,
+
+		"sDom": '<"top">rt<"bottom"flp><"clear">',
+        "paging":         false
+    } );
+} );
+	</script>
+<script type="text/javascript" class="init">
+$(document).ready(function() {
+	$('#popbycountry').dataTable();
+} );
+	</script>
+
+<script data-cfasync="false" type="text/javascript">
+  var freestar = freestar || {};
+  freestar.hitTime = Date.now();
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;
+  freestar.config.enabled_slots = [];
+  !function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="https://a.pub.network/worldometers-info";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);
+</script>
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1438574-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1438574-30"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1438574-30');
+</script>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#efefef",
+      "text": "#404040"
+    },
+    "button": {
+      "background": "#8ec760",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "href": "http://www.worldometers.info/policy/"
+  }
+})});
+</script> <style type="text/css">
+    .style1 {
+        color: #666666
+    }
+</style>
+<div class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header">
+<div class="logo"><a href="/" class="navbar-brand"><img src="/img/worldometers-logo.gif" border="0" title="Worldometer"></a></div>
+<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse" id="navbar-main">
+<ul class="nav navbar-nav">
+<li><a href="/coronavirus/"><span style="color:#FF9900; font-weight:bold">Coronavirus</span></a></li>
+<li><a href="/population/">Population</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="container">
+
+<div class="row">
+ 
+<div style="text-align:left; margin-bottom:10px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-3701697624350410" data-ad-slot="3287840995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+
+
+
+<div class="row"> <div class="col-md-8">
+
+<div class="content-inner">
+<style>
+    .number-table {
+        font-size: 20px;
+        font-weight: bold
+    }
+
+    .number-table-main {
+        font-size: 24px;
+        font-weight: bold
+    }
+</style>
+
+<script src="/js/highcharts.js"></script>
+<div class="label-counter" id="page-top"><a href="/coronavirus/">World</a> / <a href="/coronavirus/#countries">Countries</a> /
+Bolivia</div>
+<div style="font-size:13px; color:#999; text-align:center">Last updated: August 02, 2020, 20:51 GMT</div>
+<div style="text-align:center;width:100%">
+<h1>
+<div style="display:inline"> <img src="/img/flags/small/tn_bl-flag.gif" width="60" border="1 px solid #aaa" /></div>&nbsp;Bolivia </h1>
+</div>
+<div id="maincounter-wrap" style="margin-top:15px">
+<h1>Coronavirus Cases:</h1>
+<div class="maincounter-number">
+<span style="color:#aaa">78,793 </span>
+</div>
+</div>
+<div id="maincounter-wrap" style="margin-top:15px">
+<h1>Deaths:</h1>
+<div class="maincounter-number">
+<span>3,064</span>
+</div>
+</div>
+<div id="maincounter-wrap" style="margin-top:15px;">
+<h1>Recovered:</h1>
+<div class="maincounter-number" style="color:#8ACA2B ">
+<span>23,968</span>
+</div>
+</div>
+<div style="margin-top:50px;"></div>
+
+<style>
+    .panel_flip {
+        position: relative;
+        height: 100%;
+    }
+
+    .panel_front {
+
+        height: inherit;
+        position: absolute;
+        top: 0;
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+    .panel_back {
+
+        height: inherit;
+        position: absolute;
+        top: 0;
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+    .panel_flip.flip .panel_front {
+
+        z-index: 900;
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    }
+
+    .panel_flip.flip .panel_back {
+
+        z-index: 1000;
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    .graph_row {
+
+        margin-bottom: 20px;
+    }
+</style>
+<script>
+    $(function() {
+
+        $('.flip_cases_front').on('click', function() {
+
+
+            $(this).parent().parent().addClass('flip');
+        });
+
+        $('.flip_cases_back').on('click', function() {
+
+
+            $(this).parent().parent().removeClass('flip');
+        });
+    });
+</script>
+<div class="row">
+
+</div>
+
+</div> 
+</div> 
+<div class="col-md-4">
+<div>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-3701697624350410" data-ad-slot="2348228155"></ins>
+<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<div style="margin-top:50px; margin-bottom:50px">
+<a href="/coronavirus/about/"><strong>Learn more about Worldometer's COVID-19 data</strong></a></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-8">
+<div class="row graph_row">
+<div class="col-md-12">
+<h3>Total Coronavirus Cases in Bolivia</h3>
+<style>
+    /* Tabs panel */
+    .tabbable-panel-cases {
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    /* Default mode */
+    .tabbable-line-cases>.nav-tabs {
+        border: none;
+        margin: 0px;
+    }
+
+    .tabbable-line-cases>.nav-tabs>li {
+        margin-right: 2px;
+
+    }
+
+    .tabbable-line-cases>.nav-tabs>li>a {
+        border: 0;
+        margin-right: 0;
+        color: #737373;
+        font-size: 13px;
+        text-decoration: none !important;
+    }
+
+    .tabbable-line-cases>.nav-tabs>li>a>i {
+        color: #a6a6a6;
+    }
+
+    .tabbable-line-cases>.nav-tabs>li.open,
+    .tabbable-line-cases>.nav-tabs>li:hover {
+        border-bottom: 3px solid #fbcdcf;
+
+    }
+
+    .tabbable-line-cases>.nav-tabs>li.open>a,
+    .tabbable-line-cases>.nav-tabs>li:hover>a {
+        border: 0;
+        background: none !important;
+        color: #333333;
+    }
+
+    .tabbable-line-cases>.nav-tabs>li.open>a>i,
+    .tabbable-line-cases>.nav-tabs>li:hover>a>i {
+        color: #77DDFF;
+    }
+
+    .tabbable-line-cases>.nav-tabs>li.open .dropdown-menu,
+    .tabbable-line-cases>.nav-tabs>li:hover .dropdown-menu {
+        margin-top: 0px;
+    }
+
+    .tabbable-line-cases>.nav-tabs>li.active {
+        border-bottom: 3px solid #33CCFF;
+
+
+        position: relative;
+
+    }
+
+    .tabbable-line-cases>.nav-tabs>li.active>a {
+        border: 0;
+        color: #333333;
+    }
+
+    .tabbable-line-cases>.nav-tabs>li.active>a>i {
+        color: #404040;
+    }
+
+    .tabbable-line-cases>.tab-content {
+        margin-top: -3px;
+        background-color: #fff;
+        border: 0;
+        border-top: 1px solid #eee;
+        padding: 15px 0;
+    }
+
+    .portlet .tabbable-line-cases>.tab-content {
+        padding-bottom: 0;
+    }
+</style>
+
+<div class="tabbable-panel-cases">
+<div class="tabbable-line-cases">
+<ul class="nav nav-tabs ">
+<li class="active">
+<a href="#coronavirus-cases-linear" data-toggle="tab">
+linear </a>
+</li>
+<li>
+<a href="#coronavirus-cases-log" data-toggle="tab">
+logarithmic </a>
+</li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane  active  " id="coronavirus-cases-linear">
+</div>
+<div class="tab-pane" id="coronavirus-cases-log">
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    Highcharts.chart('coronavirus-cases-linear', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Total Cases'
+        },
+
+        subtitle: {
+            text: '(Linear Scale)'
+        },
+
+        xAxis: {
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+
+        yAxis: {
+            title: {
+                text: 'Total Coronavirus Cases'
+            }
+
+
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+
+        credits: {
+            enabled: false
+        },
+
+
+        series: [{
+            name: 'Cases',
+            color: '#33CCFF',
+            lineWidth: 5,
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,3,10,10,10,11,12,12,15,16,19,24,27,29,32,61,61,74,81,97,107,115,123,132,139,157,183,194,210,264,268,275,300,330,354,397,441,465,493,520,564,598,609,672,703,807,866,950,1014,1053,1110,1167,1229,1470,1594,1681,1802,1886,2081,2266,2437,2556,2831,2964,3148,3372,3577,3826,4088,4263,4481,4919,5187,5579,5915,6263,6660,7136,7768,8387,8731,9592,9982,10531,10991,11638,12245,12728,13358,13643,13949,14644,15281,16165,16929,17842,18459,19073,19883,20685,21499,22476,23512,24388,25493,26389,27487,28503,29423,30676,31524,32125,33219,34227,35528,36818,38071,39297,40509,41545,42984,44113,45565,47200,48187,49250,50867,52218,54156,56102,58138,59582,60991,62357,64135,65252,66456,68281,69429,71181,72327,73534,75234,76789]        }],
+
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 800
+                },
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        }
+
+    });
+
+    Highcharts.chart('coronavirus-cases-log', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Total Cases'
+        },
+
+        subtitle: {
+            text: '(Logarithmic Scale)'
+        },
+
+        xAxis: {
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+
+        yAxis: {
+            title: {
+                text: 'Total Coronavirus Cases'
+            },
+
+            type: 'logarithmic'
+
+
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+
+        credits: {
+            enabled: false
+        },
+
+
+        series: [{
+            name: 'Cases',
+            color: '#33CCFF',
+            lineWidth: 5,
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,3,10,10,10,11,12,12,15,16,19,24,27,29,32,61,61,74,81,97,107,115,123,132,139,157,183,194,210,264,268,275,300,330,354,397,441,465,493,520,564,598,609,672,703,807,866,950,1014,1053,1110,1167,1229,1470,1594,1681,1802,1886,2081,2266,2437,2556,2831,2964,3148,3372,3577,3826,4088,4263,4481,4919,5187,5579,5915,6263,6660,7136,7768,8387,8731,9592,9982,10531,10991,11638,12245,12728,13358,13643,13949,14644,15281,16165,16929,17842,18459,19073,19883,20685,21499,22476,23512,24388,25493,26389,27487,28503,29423,30676,31524,32125,33219,34227,35528,36818,38071,39297,40509,41545,42984,44113,45565,47200,48187,49250,50867,52218,54156,56102,58138,59582,60991,62357,64135,65252,66456,68281,69429,71181,72327,73534,75234,76789]        }],
+
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 800
+                },
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        }
+
+    });
+
+    </script> </div>
+</div>
+<div class="row graph_row">
+<div class="col-md-12">
+<h3>Daily New Cases in Bolivia</h3>
+
+<div id="graph-cases-daily"></div>
+<script type="text/javascript">
+    Highcharts.chart('graph-cases-daily', {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Daily New Cases'
+        },
+
+        subtitle: {
+            text: 'Cases per Day<br>Data as of 0:00 GMT+0'
+        },
+
+        xAxis: {
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+
+        yAxis: {
+            title: {
+                text: 'Novel Coronavirus Daily Cases'
+            }
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+
+        credits: {
+            enabled: false
+        },
+        plotOptions: {
+            series: {
+                showCheckbox: true,
+                selected: true
+            },
+            spline: {
+
+                events: {
+                    legendItemClick: function(event) {
+
+                        this.checkbox.click();
+                        return false;
+                    }
+                },
+                showInLegend: true
+            }
+        },
+
+
+        series: [{
+                name: 'Daily Cases',
+                color: '#999',
+                lineWidth: 4,
+                showCheckbox: false,
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,1,7,0,0,1,1,0,3,1,3,5,3,2,3,29,0,13,7,16,10,8,8,9,7,18,26,11,16,54,4,7,25,30,24,43,44,24,28,27,44,34,11,63,31,104,59,84,64,39,57,57,62,241,124,87,121,84,195,185,171,119,275,133,184,224,205,249,262,175,218,438,268,392,336,348,397,476,632,619,344,861,390,549,460,647,607,483,630,285,306,695,637,884,764,913,617,614,810,802,814,977,1036,876,1105,896,1098,1016,920,1253,848,601,1094,1008,1301,1290,1253,1226,1212,1036,1439,1129,1452,1635,987,1063,1617,1351,1938,1946,2036,1444,1409,1366,1778,1117,1204,1825,1148,1752,1146,1207,1700,1555]            },
+            {
+                name: '3-day moving average',
+                type: 'spline',
+                selected: false,
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,1,3,3,2,0,1,1,1,1,3,3,3,4,2,12,10,14,7,12,11,11,9,8,8,12,17,18,18,27,24,22,12,21,26,32,37,37,32,27,33,35,29,36,35,66,65,82,69,63,53,51,59,120,142,151,110,98,133,155,183,159,188,176,197,180,205,226,238,229,218,277,308,366,332,359,360,407,502,576,531,608,532,600,466,552,572,579,573,466,407,429,546,738,762,854,764,715,680,742,809,864,943,963,1005,959,1033,1004,1011,1063,1007,901,847,901,1135,1199,1282,1256,1230,1158,1229,1202,1340,1405,1358,1228,1223,1343,1636,1745,1973,1809,1629,1407,1517,1421,1366,1382,1392,1575,1349,1368,1351,1488],
+                lineWidth: 2,
+                color: '#33CCFF',
+                visible: false
+
+            }, {
+                name: '7-day moving average',
+                type: 'spline',
+                selected: false,
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,1,2,1,2,1,2,1,1,2,2,2,2,3,7,6,8,8,10,11,12,9,10,9,11,13,12,14,20,19,20,20,21,23,27,25,28,31,32,33,35,30,33,34,45,49,56,59,63,63,66,61,86,92,95,107,111,131,148,138,137,165,166,180,184,188,198,219,204,217,253,259,286,299,311,342,379,407,457,451,525,531,553,551,553,551,571,538,523,488,522,521,560,600,640,688,732,749,772,762,792,810,847,917,930,971,1001,992,1024,1019,948,975,963,1004,1056,1057,1110,1198,1189,1251,1227,1249,1304,1270,1249,1332,1319,1435,1505,1563,1627,1678,1641,1703,1585,1479,1449,1407,1455,1425,1342,1426,1476],
+                lineWidth: 2,
+                color: '#34a4c9',
+                visible: false
+
+            }
+
+        ],
+
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 800
+                },
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        }
+
+    }, function(chart) {
+        Highcharts.each(chart.legend.allItems, function(p, i) {
+            $(p.checkbox).change(
+
+                function() {
+
+                    if (this.checked) {
+                        chart.legend.allItems[i].show();
+                    } else {
+                        chart.legend.allItems[i].hide();
+                    }
+                });
+        });
+
+
+    });
+</script> </div>
+</div>
+<div class="row graph_row">
+<div class="col-md-12">
+<h3>Active Cases in Bolivia</h3>
+<div id="graph-active-cases-total"></div>
+<script type="text/javascript">
+    Highcharts.chart('graph-active-cases-total', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Active Cases'
+        },
+
+        subtitle: {
+            text: '(Number of Infected People)'
+        },
+
+        xAxis: {
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+
+        yAxis: {
+            title: {
+                text: 'Total Coronavirus Currently Infected'
+            }
+
+
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+
+        credits: {
+            enabled: false
+        },
+
+
+        series: [{
+            name: 'Currently Infected',
+            color: '#00DDDD',
+            lineWidth: 5,
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,3,10,10,10,11,12,12,15,16,19,24,27,29,32,61,61,74,80,93,101,107,114,122,128,145,170,178,193,244,247,253,274,301,320,362,398,408,431,457,500,527,528,588,616,709,746,820,863,888,934,973,1029,1240,1352,1425,1529,1597,1760,1923,2065,2165,2410,2523,2667,2864,2979,3188,3426,3586,3759,4167,4411,4774,5066,5384,5752,6185,6799,7356,7682,8393,8701,9051,9317,9731,10172,10562,11002,11092,11315,11967,12508,13260,13939,14489,14735,15011,15472,16004,16800,17091,17686,18161,18816,19243,19816,20252,20753,21548,21993,22126,22756,23262,23899,24732,25421,26196,27104,27617,28524,29121,29945,31113,31537,32090,33150,33919,35193,36171,37832,38878,39898,40794,42086,42815,43369,44795,45677,47056,47636,48220,49035,50230]        }
+        ],
+
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 800
+                },
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        }
+
+    });
+</script>
+</div>
+</div>
+<div class="row graph_row">
+<div class="col-md-12">
+<h3>Total Coronavirus Deaths in Bolivia</h3>
+<style>
+    /* Tabs panel */
+    .tabbable-panel-deaths {
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    /* Default mode */
+    .tabbable-line-deaths>.nav-tabs {
+        border: none;
+        margin: 0px;
+    }
+
+    .tabbable-line-deaths>.nav-tabs>li {
+        margin-right: 2px;
+
+    }
+
+    .tabbable-line-deaths>.nav-tabs>li>a {
+        border: 0;
+        margin-right: 0;
+        color: #737373;
+        font-size: 13px;
+        text-decoration: none !important;
+    }
+
+    .tabbable-line-deaths>.nav-tabs>li>a>i {
+        color: #a6a6a6;
+    }
+
+    .tabbable-line-deaths>.nav-tabs>li.open,
+    .tabbable-line-deaths>.nav-tabs>li:hover {
+        border-bottom: 3px solid #fbcdcf;
+
+    }
+
+    .tabbable-line-deaths>.nav-tabs>li.open>a,
+    .tabbable-line-deaths>.nav-tabs>li:hover>a {
+        border: 0;
+        background: none !important;
+        color: #333333;
+    }
+
+    .tabbable-line-deaths>.nav-tabs>li.open>a>i,
+    .tabbable-line-deaths>.nav-tabs>li:hover>a>i {
+        color: #77DDFF;
+    }
+
+    .tabbable-line-deaths>.nav-tabs>li.open .dropdown-menu,
+    .tabbable-line-deaths>.nav-tabs>li:hover .dropdown-menu {
+        margin-top: 0px;
+    }
+
+    .tabbable-line-deaths>.nav-tabs>li.active {
+        border-bottom: 3px solid #33CCFF;
+
+
+        position: relative;
+
+    }
+
+    .tabbable-line-deaths>.nav-tabs>li.active>a {
+        border: 0;
+        color: #333333;
+    }
+
+    .tabbable-line-deaths>.nav-tabs>li.active>a>i {
+        color: #404040;
+    }
+
+    .tabbable-line-deaths>.tab-content {
+        margin-top: -3px;
+        background-color: #fff;
+        border: 0;
+        border-top: 1px solid #eee;
+        padding: 15px 0;
+    }
+
+    .portlet .tabbable-line-deaths>.tab-content {
+        padding-bottom: 0;
+    }
+</style>
+
+<div class="tabbable-panel-deaths">
+<div class="tabbable-line-deaths">
+<ul class="nav nav-tabs ">
+<li class="active">
+<a href="#coronavirus-deaths-linear" data-toggle="tab">
+linear </a>
+</li>
+<li>
+<a href="#coronavirus-deaths-log" data-toggle="tab">
+logarithmic </a>
+</li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane  active " id="coronavirus-deaths-linear">
+</div>
+<div class="tab-pane" id="coronavirus-deaths-log">
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    Highcharts.chart('coronavirus-deaths-linear', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Total Deaths'
+        },
+
+        subtitle: {
+            text: '(Linear Scale)'
+        },
+
+        xAxis: {
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+
+        yAxis: {
+            title: {
+                text: 'Total Coronavirus Deaths'
+            }
+
+
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+
+        credits: {
+            enabled: false
+        },
+
+
+        series: [{
+            name: 'Deaths',
+            color: '#FF9900',
+            lineWidth: 5,
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,6,7,8,9,10,10,11,14,15,18,19,20,24,27,28,28,29,31,31,32,33,34,37,40,43,44,46,50,53,55,59,62,66,71,76,82,86,91,102,106,114,118,122,128,142,152,164,165,169,174,189,199,215,230,240,250,261,274,280,293,300,310,313,343,376,400,415,427,454,465,475,487,512,533,559,585,611,632,659,679,697,715,740,773,820,846,876,913,934,970,1014,1071,1123,1201,1271,1320,1378,1434,1476,1530,1577,1638,1702,1754,1807,1866,1898,1942,1984,2049,2106,2151,2218,2273,2328,2407,2473,2535,2583,2647,2720,2808,2894,2977]        }],
+
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 800
+                },
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        }
+
+    });
+    Highcharts.chart('coronavirus-deaths-log', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Total Deaths'
+        },
+
+        subtitle: {
+            text: '(Logarithmic Scale)'
+        },
+
+        xAxis: {
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+
+        yAxis: {
+            title: {
+                text: 'Total Coronavirus Deaths'
+            },
+
+            type: 'logarithmic'
+
+
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+
+        credits: {
+            enabled: false
+        },
+
+
+        series: [{
+            name: 'Deaths',
+            color: '#FF9900',
+            lineWidth: 5,
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,6,7,8,9,10,10,11,14,15,18,19,20,24,27,28,28,29,31,31,32,33,34,37,40,43,44,46,50,53,55,59,62,66,71,76,82,86,91,102,106,114,118,122,128,142,152,164,165,169,174,189,199,215,230,240,250,261,274,280,293,300,310,313,343,376,400,415,427,454,465,475,487,512,533,559,585,611,632,659,679,697,715,740,773,820,846,876,913,934,970,1014,1071,1123,1201,1271,1320,1378,1434,1476,1530,1577,1638,1702,1754,1807,1866,1898,1942,1984,2049,2106,2151,2218,2273,2328,2407,2473,2535,2583,2647,2720,2808,2894,2977]        }],
+
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 800
+                },
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        }
+
+    });
+
+    </script> </div>
+</div>
+<div class="row graph_row">
+<div class="col-md-12">
+<h3>Daily New Deaths in Bolivia</h3>
+<div id="graph-deaths-daily"></div>
+<script type="text/javascript">
+    Highcharts.chart('graph-deaths-daily', {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Daily Deaths'
+        },
+
+        subtitle: {
+            text: 'Deaths per Day<br>Data as of 0:00 GMT+8'
+        },
+
+        xAxis: {
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+
+        yAxis: {
+            title: {
+                text: 'Novel Coronavirus Daily Deaths'
+            }
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle'
+        },
+
+        credits: {
+            enabled: false
+        },
+
+        plotOptions: {
+            series: {
+                showCheckbox: true,
+                selected: true
+            },
+            spline: {
+
+                events: {
+                    legendItemClick: function(event) {
+
+                        this.checkbox.click();
+                        return false;
+                    }
+                },
+                showInLegend: true
+            }
+        },
+
+
+        series: [{
+                name: 'Daily Deaths',
+                color: '#999',
+                lineWidth: 4,
+                showCheckbox: false,
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,3,2,1,1,1,1,0,1,3,1,3,1,1,4,3,1,0,1,2,0,1,1,1,3,3,3,1,2,4,3,2,4,3,4,5,5,6,4,5,11,4,8,4,4,6,14,10,12,1,4,5,15,10,16,15,10,10,11,13,6,13,7,10,3,30,33,24,15,12,27,11,10,12,25,21,26,26,26,21,27,20,18,18,25,33,47,26,30,37,21,36,44,57,52,78,70,49,58,56,42,54,47,61,64,52,53,59,32,44,42,65,57,45,67,55,55,79,66,62,48,64,73,88,86,83]            },
+            {
+                name: '3-day moving average',
+                type: 'spline',
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2,2,1,1,1,1,0,2,1,3,1,2,2,3,2,2,0,1,1,1,1,1,2,2,3,2,2,3,3,3,3,3,3,4,5,5,5,5,7,7,7,6,5,5,8,10,12,7,6,3,8,10,14,14,13,12,10,12,10,10,9,10,7,14,22,29,24,17,18,17,16,11,15,20,24,24,26,24,25,23,21,19,20,26,35,35,34,31,30,31,34,45,51,63,66,66,59,54,52,51,48,54,57,59,56,55,48,45,39,51,54,56,56,56,59,63,67,69,58,58,62,75,82,86],
+                lineWidth: 2,
+                color: '#FF9900',
+                selected: false,
+                visible: false,
+
+            }, {
+                name: '7-day moving average',
+                type: 'spline',
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,1,1,2,1,1,1,1,2,1,2,3,2,1,2,2,1,1,1,1,1,2,2,2,2,2,3,2,3,3,3,3,4,4,5,4,6,6,6,6,6,6,7,7,8,8,7,7,9,8,9,10,10,12,12,12,12,11,10,10,9,12,14,18,17,18,21,21,19,16,16,17,19,19,20,23,24,24,24,22,22,23,27,27,28,31,31,33,34,36,40,46,51,56,58,60,58,58,54,52,55,53,54,55,53,52,49,50,50,49,51,53,55,61,60,62,61,62,64,68,70,72],
+                lineWidth: 2,
+                color: '#ad6c0a',
+                selected: false,
+                visible: false,
+
+            }
+
+        ],
+
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 800
+                },
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        }
+
+    }, function(chart) {
+        Highcharts.each(chart.legend.allItems, function(p, i) {
+            $(p.checkbox).change(
+
+                function() {
+
+                    if (this.checked) {
+                        chart.legend.allItems[i].show();
+                    } else {
+                        chart.legend.allItems[i].hide();
+                    }
+                });
+        });
+
+
+    });
+</script> </div>
+</div>
+<style type="text/css">
+        .style2 {
+            color: #222222
+        }
+
+
+        .style4 {
+            font-weight: bold
+        }
+
+
+        .red {
+            color: red
+        }
+
+
+        .underline a {
+            text-decoration: underline;
+        }
+
+        /*		.news_body ul li {     margin-bottom: 40px !important; }*/
+        .news_post {
+            margin-bottom: 40px;
+        }
+    
+    
+        .btn:focus,
+        .btn:active {
+            outline: none !important;
+            /*box-shadow: none !important;*/
+        }
+
+
+        .load-more__btn {
+
+
+            color: #000 !important;
+        }
+
+
+        .news_date {
+
+
+            font-weight: bold;
+            text-align: left;
+            /* color: grey;*/
+            margin-bottom: 50px;
+        }
+
+
+        .news_title {
+
+
+            color: #222;
+
+
+            font-size: 18px;
+            margin-bottom: 16px;
+
+
+        }
+
+
+        .news_type {
+            float: left;
+            margin-right: 8px;
+        }
+
+
+        .news_source {
+            /*        float: left;*/
+            position: absolute;
+            right: 0;
+            bottom: 0;
+
+
+        }
+
+
+        .news_body {
+            position: relative;
+        }
+
+
+        .date-btn {
+
+
+            font-size: 16px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 16px;
+        }
+
+
+        .newsdate_div {
+
+
+            margin-top: 20px;
+        }
+
+
+        .news_sources li {
+            list-style-type: none;
+            margin-bottom: 10px !important;
+        }
+
+
+        .news_ul li {
+
+
+            margin-bottom: 10px !important;
+        }
+
+        #news_block article {
+            margin-bottom: 20px !important;
+        }
+
+        .news_category_title {
+
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+    </style>
+<div class="row">
+<div class="col-md-12" id="news_block">
+<h2 align="left" id="news" style="margin-bottom: 50px;">Latest News</h2>
+<div class="news_date"><h4>August 2 (GMT)</h4></div><div id="newsdate2020-08-02"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_body">
+<ul class="news_ul"><li class="news_li"><strong>2,004 new cases</strong> and <strong>87 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/bolivia/">Bolivia</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://twitter.com/MinSaludBolivia/status/1289735564661383168">source</a>]</span></li></ul>
+</div>
+</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-08-01">August 1&nbsp;&nbsp; <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-08-01"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_body">
+<ul class="news_ul"><li class="news_li"><strong>1,555 new cases</strong> and <strong>83 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/bolivia/">Bolivia</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://twitter.com/MinSaludBolivia/status/1289369389528121344">source</a>]</span></li></ul>
+</div>
+</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-07-31">July 31 <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-07-31"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_body">
+<ul class="news_ul"><li class="news_li"><strong>1,700 new cases</strong> and <strong>86 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/bolivia/">Bolivia</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://twitter.com/MinSaludBolivia/status/1289016419007561728">source</a>]</span></li></ul>
+</div>
+</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-07-30">July 30 <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-07-30"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_body">
+<ul class="news_ul"><li class="news_li"><strong>1,207 new cases</strong> and <strong>88 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/bolivia/">Bolivia</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://twitter.com/MinSaludBolivia/status/1288643716467564546">source</a>]</span></li></ul>
+</div>
+</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-07-29">July 29 <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-07-29"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_body">
+<ul class="news_ul"><li class="news_li"><strong>1,146 new cases</strong> and <strong>73 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/bolivia/">Bolivia</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://twitter.com/MinSaludBolivia/status/1288288370926526464?cxt=HHwWgIC91dPc9eAjAAAA">source</a>]</span></li></ul>
+</div>
+</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-07-28">July 28 <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-07-28"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_body">
+<ul class="news_ul"><li class="news_li"><strong>1,752 new cases</strong> and <strong>64 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/bolivia/">Bolivia</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://twitter.com/MinSaludBolivia/status/1287921969925697537">source</a>]</span></li></ul>
+</div>
+</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-07-27">July 27 <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-07-27"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_body">
+<ul class="news_ul"><li class="news_li"><strong>1,148 new cases</strong> and <strong>48 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/bolivia/">Bolivia</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://twitter.com/MinSaludBolivia/status/1287557092077785091">source</a>]</span></li></ul>
+</div>
+</div></div>
+<div style="width:100%; text-align:center;margin: 0 auto;">
+<a style="display: none;" href="javascript:void(0)" class="load-more__btn" data-country="BOL" data-country="BOL" data-days_count="7" id="lm_2020-07-27"><button class="btn">View More News <img alt="view more" style="width:16px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAADAFBMVEX///90dHRsbGttbWxtbWtzc3Jqamlqamhra2lra2ppaWhnZ2ZpaWdmZmVwcHBoaGZvb25sbGptbW12dnZubm51dXV2dnVwcG9zc3Nzc3R3d3doaGdycnJnZ2VxcXF1dXZ0dHVvb28AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF9IACodnd2d3UAAAAAAAABAAAAAAAtRCHzwHcAABkAAAAAADAAAAAAAAAAAAAtRHgAAHcAAAAAAAAAAAAAAABMAAB2d3YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvFCwVLHc0ca8AGfQQAID0YMA4ABkAGfQAAAAAgAAAAAAAAAAAAAUAYAAAAAAAAAAwT6ReqHcABvgAxQAAAAD0NAA4ABkAGfQAAAAAAAAAAAAAAAAAAGQAAAAYAAAAzj8AABgAAAAMAAAAGAD4VvheqAYIBvgAzj/FAAAvKAD8p1MAGfMsUPaeyXcAdy0AAAAAAAAAAAAAAAAAAAAAAAC7KAAspgh2auQZ9KDkTQC3dmoAAAAAAAAAAABrwAB2auQAAGAAAAAFAAAAAAAAAIAAgAAAwBAAAAAACIgAAAADAAAAAABCAEBeqAAABvgAAAD4XqgAAAYAAAAAAAAAArEAAAAYAAAAAAAAAAD0QABAABkAAAAAAAD0kAAAABkAAAAAAAAAAAAAAAAAAABmABBmZmYMOSAAAAAAAAIBAQA4ABkydFcZ9NDhHgAAdmoAAAAAAAL0uAAAABkAAAAAABgAgAAAAAAAAAAAAAAAAADEi2NXAAAAAXRSTlMAQObYZgAAAAFiS0dEi/JvR+AAAAAJcEhZcwAALiMAAC4jAXilP3YAAACPSURBVHja5ZJBDoAgDATdg1dCVESNQfj/J4USlSrgXXujM5Ql0DR/KoF7R7JO16PlfFAY07UGJs7nhe/gxpOHFJfh5y+5nIeR46u4jMi1SbnZoL1hgxG5U8qlxgQ4mrE6yicVv9VpWABZToamGQV+GnR+jgfDUi5Z4McMz1F6U28MNU6GrXEyUP85b/yrtQMhJwlGqKwmOAAAAABJRU5ErkJggg==" /></button></a>
+</div>
+<div style="width:100%;text-align:center; ">
+<div style="display: none;" class="loading lds-ellipsis">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+</div>
+</div>
+</div> 
+<style>
+            .lds-ellipsis {
+                margin: 0 auto;
+                display: none;
+                position: relative;
+                width: 74px;
+                height: 30px;
+
+
+            }
+
+
+            .lds-ellipsis div {
+                position: absolute;
+                top: 10px;
+                width: 13px;
+                height: 13px;
+                border-radius: 50%;
+                background: #777;
+                animation-timing-function: cubic-bezier(0, 1, 1, 0);
+            }
+
+
+            .lds-ellipsis div:nth-child(1) {
+                left: 8px;
+                animation: lds-ellipsis1 0.6s infinite;
+            }
+
+
+            .lds-ellipsis div:nth-child(2) {
+                left: 8px;
+                animation: lds-ellipsis2 0.6s infinite;
+            }
+
+
+            .lds-ellipsis div:nth-child(3) {
+                left: 32px;
+                animation: lds-ellipsis2 0.6s infinite;
+            }
+
+
+            .lds-ellipsis div:nth-child(4) {
+                left: 56px;
+                animation: lds-ellipsis3 0.6s infinite;
+            }
+
+
+            @keyframes lds-ellipsis1 {
+                0% {
+                    transform: scale(0);
+                }
+
+
+                100% {
+                    transform: scale(1);
+                }
+            }
+
+
+            @keyframes lds-ellipsis3 {
+                0% {
+                    transform: scale(1);
+                }
+
+
+                100% {
+                    transform: scale(0);
+                }
+            }
+
+
+            @keyframes lds-ellipsis2 {
+                0% {
+                    transform: translate(0, 0);
+                }
+
+
+                100% {
+                    transform: translate(24px, 0);
+                }
+            }
+        </style>
+<script type="text/javascript">
+            $(document).ready(function() {
+
+                if ($('.news_post').length <= 0) {
+
+                    $('#news').hide();
+
+                }
+
+                $(document).on('click', '.load-more__btn', function() {
+
+
+                    var ID = $(this).attr('id');
+                    var country = $(this).attr('data-country');
+                    var region = $(this).attr('data-region');
+                    var days_count = $(this).attr('data-days_count');
+
+
+                    $('.load-more__btn').hide();
+                    $('.loading').css('display', 'inline-block');
+                    $.ajax({
+                        type: 'POST',
+                        url: '/coronavirus/news-block/news_main_updates.php',
+                        data: 'fd=' + ID + (country ? '&country=' + country : '') + (region ? '&region=' + region : '') + (days_count ? '&days_count=' + days_count : ''),
+                        success: function(html) {
+                                $(ID).remove();
+                                $('.loading').remove();
+                                $('#news_block').append(html);
+
+
+                                dateButtonsEvents();
+
+
+                            }
+
+
+                            ,
+                        error: function(objAJAXRequest, strError) {
+                            $('.loading').remove();
+                            $('.load-more__btn').show();
+                        }
+                    });
+                });
+            });
+
+            function dateButtonsEvents() {
+
+
+                $('.date-btn').prop("onclick", null).off("click");
+                $('.date-btn').on('click', function() {
+
+
+                    var n = $('#newsdate' + $(this).data('date'));
+                    if (n.is(':visible')) {
+                        n.slideUp('fast');
+                        $(this).find('i').removeClass('fa-chevron-circle-up');
+                        $(this).find('i').addClass('fa-chevron-circle-down');
+                    } else {
+                        n.slideDown('fast');
+
+
+                        $(this).find('i').removeClass('fa-chevron-circle-down');
+                        $(this).find('i').addClass('fa-chevron-circle-up');
+                    }
+                });
+
+
+            }
+            $(document).ready(function() {
+
+
+
+                dateButtonsEvents();
+            });
+        </script>
+<h2>Countries:</h2>
+<div class="spaced" style="margin-top:20px ">
+<ul>
+<li><a href="/coronavirus/country/china/"><strong>China</strong></a></li>
+<li><a href="/coronavirus/country/south-korea/"><strong>South Korea</strong></a></li>
+<li><a href="/coronavirus/country/iran/"><strong>Iran</strong></a></li>
+<li><a href="/coronavirus/country/italy/"><strong>Italy</strong></a></li>
+<li><a href="/coronavirus/country/spain/"><strong>Spain</strong></a></li>
+<li><strong><a href="/coronavirus/country/france/">France</a></strong><a href="/coronavirus/country/france/"></a></li>
+<li><a href="/coronavirus/country/us/"><strong>United States</strong></a></li>
+</ul>
+</div>
+<h2>Coronavirus Worldometer Sections:</h2>
+<div class="spaced" style="margin-top:20px ">
+<ul>
+<li><a href="/coronavirus/"><strong>Coronavirus Update</strong></a></li>
+<li><a href="/coronavirus/coronavirus-cases/"><strong>Cases</strong></a></li>
+<li><a href="/coronavirus/coronavirus-death-toll/"><strong>Deaths</strong></a></li>
+<li><a href="/coronavirus/coronavirus-death-rate/"><strong>Mortality Rate</strong></a></li>
+<li><a href="/coronavirus/#repro"><strong>Transmission Rate </strong></a></li>
+<li><strong><a href="/coronavirus/coronavirus-incubation-period/">Incubation Period</a></strong></li>
+<li><strong><a href="/coronavirus/coronavirus-age-sex-demographics/"><strong>Age, Sex, Demographics</strong></a></strong></li>
+<li><strong><a href="/coronavirus/coronavirus-symptoms/">Symptoms</a></strong></li>
+<li><strong>Countries with cases: <a href="/coronavirus/countries-where-coronavirus-has-spread/">basic list</a></strong> - <a href="/coronavirus/#countries"><strong>detailed list</strong></a></li>
+<li><strong><a href="/coronavirus/coronavirus-expert-opinions/">Expert Opinions</a></strong></li>
+<li><a href="/coronavirus/usa-coronavirus/"><strong>Cases in the US</strong></a></li>
+</ul>
+</div>
+
+
+
+</div><div class="col-md-4 adright"><div>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-3701697624350410" data-ad-slot="2348228155"></ins>
+<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+
+</div>
+<div>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-3701697624350410" data-ad-slot="2348228155"></ins>
+<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+
+</div>
+<div style="margin-top:40px; margin-bottom:40px; text-align:center">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3701697624350410" data-ad-slot="4941262260" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div style="margin-top:40px; margin-bottom:40px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3701697624350410" data-ad-slot="4941262260" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div style="margin-top:40px; margin-bottom:40px; padding-left:25px">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-3701697624350410" data-ad-slot="9468680730"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+<div style="margin-top:80px; padding-left:40px; margin-bottom:40px">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-3701697624350410" data-ad-slot="2348228155"></ins>
+<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+
+</div>
+<div style="margin-top:80px; padding-left:40px; margin-bottom:40px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3701697624350410" data-ad-slot="4941262260" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div style="margin-top:80px; padding-left:40px; margin-bottom:40px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3701697624350410" data-ad-slot="4941262260" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div></div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3701697624350410" data-ad-slot="6995709761" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<div style="margin-top:40px"></div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3701697624350410" data-ad-slot="1743383089" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<footer>
+<div class="footerlinks">
+<div style="margin-bottom:20px"><a href="/"><img src="/img/worldometers-logo-footer.png" border="0" class="img-footer"></a></div>
+<a href="/about/">about</a> | <a href="/faq/">faq</a> | <a href="/languages/">languages</a> | <a href="/licensing/">licensing</a> | <a href="/contact/">contact</a>
+</div>
+<ul class="list-inline text-center socialbuttons">
+<li><a href="/newsletter-subscribe/" data-toggle="tooltip" data-placement="bottom" title="Newsletter"><i class="fa fa-bullhorn fa-round"></i></a></li>
+<li><a href="https://twitter.com/Worldometers"><i class="fa fa-twitter fa-round"></i></a></li>
+<li><a href="https://www.facebook.com/Worldometers.info"><i class="fa fa-facebook fa-round"></i></a></li>
+</ul>
+<div class="copy">&copy; Copyright Worldometers.info - All rights reserved - <a href="/disclaimer/">Disclaimer & Privacy Policy</a></div>
+</footer>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54615fa823b2af68" async="async"></script>
+
+<script type="text/javascript">
+    (function() {
+        function async_load(script_url){
+            var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+            var s = document.createElement('script'); s.src = protocol + script_url;
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        bm_website_code = '7849CD9451D34931';
+        jQuery(document).ready(function(){async_load('asset.pagefair.com/measure.min.js')});
+        jQuery(document).ready(function(){async_load('asset.pagefair.net/ads.min.js')});
+    })();
+</script>
+
+
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-Pd9JxUkvV0m7q"
+});
+</script>
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-Pd9JxUkvV0m7q.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+
+</body>
+</html>
