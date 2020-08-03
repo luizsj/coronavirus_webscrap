@@ -18,8 +18,7 @@ const countriesList = get_wm_data_countries_list(content);
 
 const countriesListWithData = get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap);
 
-let jsonContent = JSON.stringify(countriesListWithData);
-fs.writeFile("countriesListWithData.js", jsonContent, 'utf8', function (err) {});
+console.log('final list contains '+countriesListWithData.length+' countries');
 
 function get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap)
 {   let i = 0;
@@ -67,7 +66,7 @@ function get_wm_data_countries_list_only_essential_data(objTable) {
                     country.totalCases = parseInt(objCountry.TotalCases.replace(/,/g, ''));
                     country.totalDeaths = parseInt(objCountry.TotalDeaths.replace(/,/g, ''));
                     country.population = get_wm_data_countries_list_only_essential_data_return_population(objCountry.Population);
-                    if ( country.totalDeaths >= 10 )
+                    if (( country.totalDeaths >= 10 ) && (country.population > 1000000))
                         {   countriesFinal[countriesFinal.length] = country; }
                 }
         }
