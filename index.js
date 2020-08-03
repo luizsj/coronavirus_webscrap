@@ -19,7 +19,7 @@ const countriesList = get_wm_data_countries_list(content);
 const countriesListWithData = get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap);
 
 let jsonContent = JSON.stringify(countriesListWithData);
-fs.writeFile("countriesListWithData.js", jsonContent, 'utf8');
+fs.writeFile("countriesListWithData.js", jsonContent, 'utf8', function (err) {});
 
 function get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap)
 {   let i = 0;
