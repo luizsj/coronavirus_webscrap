@@ -17,8 +17,9 @@ const deathsDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-de
 const countriesList = get_wm_data_countries_list(content);
 
 const countriesListWithData = get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap);
-console.log(countriesListWithData[0]);
-console.log(countriesListWithData[1]);
+
+let jsonContent = JSON.stringify(countriesListWithData);
+fs.writeFile("countriesListWithData.js", jsonContent, 'utf8');
 
 function get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap)
 {   let i = 0;
