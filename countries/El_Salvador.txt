@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>El Salvador Coronavirus: 17,448 Cases and 467 Deaths - Worldometer</title>
+<title>El Salvador Coronavirus: 18,701 Cases and 498 Deaths - Worldometer</title>
 <meta name="description" content="El Salvador Coronavirus update with statistics and graphs: total and new cases, deaths per day, mortality and recovery rates, current active cases, recoveries, trends and timeline.">
 
 <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
@@ -176,7 +176,7 @@ window.cookieconsent.initialise({
 <div class="container">
 
 <div class="row">
-
+ 
 <div style="text-align:left; margin-bottom:10px">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -207,7 +207,7 @@ window.cookieconsent.initialise({
 <script src="/js/highcharts.js"></script>
 <div class="label-counter" id="page-top"><a href="/coronavirus/">World</a> / <a href="/coronavirus/#countries">Countries</a> /
 El Salvador</div>
-<div style="font-size:13px; color:#999; text-align:center">Last updated: August 02, 2020, 20:57 GMT</div>
+<div style="font-size:13px; color:#999; text-align:center">Last updated: August 06, 2020, 01:49 GMT</div>
 <div style="text-align:center;width:100%">
 <h1>
 <div style="display:inline"> <img src="/img/flags/small/tn_es-flag.gif" width="60" border="1 px solid #aaa" /></div>&nbsp;El Salvador </h1>
@@ -215,19 +215,19 @@ El Salvador</div>
 <div id="maincounter-wrap" style="margin-top:15px">
 <h1>Coronavirus Cases:</h1>
 <div class="maincounter-number">
-<span style="color:#aaa">17,448 </span>
+<span style="color:#aaa">18,701 </span>
 </div>
 </div>
 <div id="maincounter-wrap" style="margin-top:15px">
 <h1>Deaths:</h1>
 <div class="maincounter-number">
-<span>467</span>
+<span>498</span>
 </div>
 </div>
 <div id="maincounter-wrap" style="margin-top:15px;">
 <h1>Recovered:</h1>
 <div class="maincounter-number" style="color:#8ACA2B ">
-<span>8,634</span>
+<span>9,111</span>
 </div>
 </div>
 <div style="margin-top:50px;"></div>
@@ -460,7 +460,7 @@ logarithmic </a>
         },
 
         xAxis: {
-            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01","Aug 02","Aug 03","Aug 04","Aug 05"]        },
 
         yAxis: {
             title: {
@@ -484,7 +484,7 @@ logarithmic </a>
             name: 'Cases',
             color: '#33CCFF',
             lineWidth: 5,
-            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,3,3,5,9,13,13,19,24,30,32,33,41,46,56,62,69,78,93,103,117,118,125,137,149,159,164,177,190,201,218,225,237,250,261,274,298,323,345,377,395,424,446,490,555,587,633,695,742,784,889,958,998,1037,1112,1210,1265,1338,1413,1498,1571,1640,1725,1819,1915,1983,2042,2109,2194,2278,2395,2517,2582,2653,2705,2781,2849,2934,3015,3104,3191,3274,3373,3481,3603,3720,3826,3941,4066,4200,4329,4475,4626,4808,4973,5150,5336,5517,5727,5934,6173,6438,6736,7000,7267,7507,7777,8027,8307,8566,8844,9142,9391,9674,9978,10303,10645,10957,11207,11508,11846,12207,12582,12975,13377,13792,14221,14630,15035,15446,15841,16230,16632,17050]        }],
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,3,3,5,9,13,13,19,24,30,32,33,41,46,56,62,69,78,93,103,117,118,125,137,149,159,164,177,190,201,218,225,237,250,261,274,298,323,345,377,395,424,446,490,555,587,633,695,742,784,889,958,998,1037,1112,1210,1265,1338,1413,1498,1571,1640,1725,1819,1915,1983,2042,2109,2194,2278,2395,2517,2582,2653,2705,2781,2849,2934,3015,3104,3191,3274,3373,3481,3603,3720,3826,3941,4066,4200,4329,4475,4626,4808,4973,5150,5336,5517,5727,5934,6173,6438,6736,7000,7267,7507,7777,8027,8307,8566,8844,9142,9391,9674,9978,10303,10645,10957,11207,11508,11846,12207,12582,12975,13377,13792,14221,14630,15035,15446,15841,16230,16632,17050,17448,17843,18262,18701]        }],
 
         responsive: {
             rules: [{
@@ -516,7 +516,7 @@ logarithmic </a>
         },
 
         xAxis: {
-            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01","Aug 02","Aug 03","Aug 04","Aug 05"]        },
 
         yAxis: {
             title: {
@@ -542,7 +542,7 @@ logarithmic </a>
             name: 'Cases',
             color: '#33CCFF',
             lineWidth: 5,
-            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,3,3,5,9,13,13,19,24,30,32,33,41,46,56,62,69,78,93,103,117,118,125,137,149,159,164,177,190,201,218,225,237,250,261,274,298,323,345,377,395,424,446,490,555,587,633,695,742,784,889,958,998,1037,1112,1210,1265,1338,1413,1498,1571,1640,1725,1819,1915,1983,2042,2109,2194,2278,2395,2517,2582,2653,2705,2781,2849,2934,3015,3104,3191,3274,3373,3481,3603,3720,3826,3941,4066,4200,4329,4475,4626,4808,4973,5150,5336,5517,5727,5934,6173,6438,6736,7000,7267,7507,7777,8027,8307,8566,8844,9142,9391,9674,9978,10303,10645,10957,11207,11508,11846,12207,12582,12975,13377,13792,14221,14630,15035,15446,15841,16230,16632,17050]        }],
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,3,3,5,9,13,13,19,24,30,32,33,41,46,56,62,69,78,93,103,117,118,125,137,149,159,164,177,190,201,218,225,237,250,261,274,298,323,345,377,395,424,446,490,555,587,633,695,742,784,889,958,998,1037,1112,1210,1265,1338,1413,1498,1571,1640,1725,1819,1915,1983,2042,2109,2194,2278,2395,2517,2582,2653,2705,2781,2849,2934,3015,3104,3191,3274,3373,3481,3603,3720,3826,3941,4066,4200,4329,4475,4626,4808,4973,5150,5336,5517,5727,5934,6173,6438,6736,7000,7267,7507,7777,8027,8307,8566,8844,9142,9391,9674,9978,10303,10645,10957,11207,11508,11846,12207,12582,12975,13377,13792,14221,14630,15035,15446,15841,16230,16632,17050,17448,17843,18262,18701]        }],
 
         responsive: {
             rules: [{
@@ -582,7 +582,7 @@ logarithmic </a>
         },
 
         xAxis: {
-            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01","Aug 02","Aug 03","Aug 04","Aug 05"]        },
 
         yAxis: {
             title: {
@@ -622,12 +622,12 @@ logarithmic </a>
                 color: '#999',
                 lineWidth: 4,
                 showCheckbox: false,
-                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,2,0,0,2,4,4,0,6,5,6,2,1,8,5,10,6,7,9,15,10,14,1,7,12,12,10,5,13,13,11,17,7,12,13,11,13,24,25,22,32,18,29,22,44,65,32,46,62,47,42,105,69,40,39,75,98,55,73,75,85,73,69,85,94,96,68,59,67,85,84,117,122,65,71,52,76,68,85,81,89,87,83,99,108,122,117,106,115,125,134,129,146,151,182,165,177,186,181,210,207,239,265,298,264,267,240,270,250,280,259,278,298,249,283,304,325,342,312,250,301,338,361,375,393,402,415,429,409,405,411,395,389,402,418]            },
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,2,0,0,2,4,4,0,6,5,6,2,1,8,5,10,6,7,9,15,10,14,1,7,12,12,10,5,13,13,11,17,7,12,13,11,13,24,25,22,32,18,29,22,44,65,32,46,62,47,42,105,69,40,39,75,98,55,73,75,85,73,69,85,94,96,68,59,67,85,84,117,122,65,71,52,76,68,85,81,89,87,83,99,108,122,117,106,115,125,134,129,146,151,182,165,177,186,181,210,207,239,265,298,264,267,240,270,250,280,259,278,298,249,283,304,325,342,312,250,301,338,361,375,393,402,415,429,409,405,411,395,389,402,418,398,395,419,439]            },
             {
                 name: '3-day moving average',
                 type: 'spline',
                 selected: false,
-                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,0,1,1,2,3,3,3,4,5,5,3,3,5,8,7,7,8,10,11,13,9,7,7,10,11,9,10,10,12,14,12,12,10,12,13,16,20,24,26,24,27,23,31,44,47,48,46,52,50,65,72,71,50,51,71,76,75,68,77,78,76,75,83,92,86,74,65,70,79,95,108,101,86,63,66,65,77,78,85,85,87,89,97,110,115,115,113,115,125,129,137,142,159,166,175,176,181,193,199,219,237,267,276,276,257,259,253,267,263,272,279,275,276,279,304,324,326,301,288,296,334,358,376,390,403,416,417,415,408,404,398,395,403],
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,0,1,1,2,3,3,3,4,5,5,3,3,5,8,7,7,8,10,11,13,9,7,7,10,11,9,10,10,12,14,12,12,10,12,13,16,20,24,26,24,27,23,31,44,47,48,46,52,50,65,72,71,50,51,71,76,75,68,77,78,76,75,83,92,86,74,65,70,79,95,108,101,86,63,66,65,77,78,85,85,87,89,97,110,115,115,113,115,125,129,137,142,159,166,175,176,181,193,199,219,237,267,276,276,257,259,253,267,263,272,279,275,276,279,304,324,326,301,288,296,334,358,376,390,403,416,417,415,408,404,398,395,403,406,404,404,418],
                 lineWidth: 2,
                 color: '#33CCFF',
                 visible: false
@@ -636,7 +636,7 @@ logarithmic </a>
                 name: '7-day moving average',
                 type: 'spline',
                 selected: false,
-                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,1,0,2,1,2,2,3,4,4,3,4,5,5,6,5,7,9,8,11,8,9,10,10,10,8,9,10,11,12,11,11,12,12,12,14,15,17,20,21,23,25,27,33,35,36,43,46,48,57,57,59,58,59,67,69,64,65,72,76,75,74,79,82,82,78,76,80,79,82,86,85,88,85,84,81,77,71,75,77,81,85,90,96,100,103,108,113,118,121,125,129,140,148,155,162,170,178,187,195,210,226,238,250,254,263,265,267,262,263,268,269,271,279,285,297,302,295,302,311,318,326,332,346,369,388,398,404,409,409,408,406,404],
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,1,0,2,1,2,2,3,4,4,3,4,5,5,6,5,7,9,8,11,8,9,10,10,10,8,9,10,11,12,11,11,12,12,12,14,15,17,20,21,23,25,27,33,35,36,43,46,48,57,57,59,58,59,67,69,64,65,72,76,75,74,79,82,82,78,76,80,79,82,86,85,88,85,84,81,77,71,75,77,81,85,90,96,100,103,108,113,118,121,125,129,140,148,155,162,170,178,187,195,210,226,238,250,254,263,265,267,262,263,268,269,271,279,285,297,302,295,302,311,318,326,332,346,369,388,398,404,409,409,408,406,404,402,401,403,408],
                 lineWidth: 2,
                 color: '#34a4c9',
                 visible: false
@@ -696,7 +696,7 @@ logarithmic </a>
         },
 
         xAxis: {
-            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01","Aug 02","Aug 03","Aug 04","Aug 05"]        },
 
         yAxis: {
             title: {
@@ -720,7 +720,7 @@ logarithmic </a>
             name: 'Currently Infected',
             color: '#00DDDD',
             lineWidth: 5,
-            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,3,3,5,9,13,13,19,24,30,31,31,39,43,51,57,60,69,79,83,96,93,98,109,118,123,125,132,140,150,165,170,167,175,181,191,207,226,240,262,266,290,294,325,362,373,399,435,469,491,579,615,629,643,684,771,798,849,909,966,1003,1063,1126,1216,1286,1250,1219,1199,1153,1221,1325,1431,1473,1491,1477,1522,1547,1600,1657,1688,1720,1772,1812,1826,1793,1811,1840,1824,1850,1883,1933,1933,1993,2046,2046,2107,2094,2093,2137,2225,2361,2494,2590,2694,2797,2863,2987,3074,3149,3198,3312,3465,3621,3780,3979,4106,4239,4402,4476,4624,4806,5032,5265,5493,5729,5998,6282,6582,6849,7126,7340,7585,7822,8096]        }
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,3,3,5,9,13,13,19,24,30,31,31,39,43,51,57,60,69,79,83,96,93,98,109,118,123,125,132,140,150,165,170,167,175,181,191,207,226,240,262,266,290,294,325,362,373,399,435,469,491,579,615,629,643,684,771,798,849,909,966,1003,1063,1126,1216,1286,1250,1219,1199,1153,1221,1325,1431,1473,1491,1477,1522,1547,1600,1657,1688,1720,1772,1812,1826,1793,1811,1840,1824,1850,1883,1933,1933,1993,2046,2046,2107,2094,2093,2137,2225,2361,2494,2590,2694,2797,2863,2987,3074,3149,3198,3312,3465,3621,3780,3979,4106,4239,4402,4476,4624,4806,5032,5265,5493,5729,5998,6282,6582,6849,7126,7340,7585,7822,8096,8347,8557,8822,9092]        }
         ],
 
         responsive: {
@@ -862,7 +862,7 @@ logarithmic </a>
         },
 
         xAxis: {
-            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01","Aug 02","Aug 03","Aug 04","Aug 05"]        },
 
         yAxis: {
             title: {
@@ -886,7 +886,7 @@ logarithmic </a>
             name: 'Deaths',
             color: '#FF9900',
             lineWidth: 5,
-            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,3,3,4,4,5,6,6,6,6,6,6,6,6,7,7,7,7,7,7,8,8,8,8,8,8,9,10,10,11,11,13,13,15,15,16,17,17,18,20,20,23,23,26,27,30,30,31,33,33,33,35,35,36,37,39,42,44,46,46,46,49,51,53,53,53,55,58,64,64,68,72,72,74,76,79,82,86,93,98,107,113,119,126,133,143,152,164,174,182,191,202,210,217,223,229,235,243,249,254,260,267,278,286,298,309,324,335,344,352,363,372,379,390,400,408,417,430,439,448,459]        }],
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,3,3,4,4,5,6,6,6,6,6,6,6,6,7,7,7,7,7,7,8,8,8,8,8,8,9,10,10,11,11,13,13,15,15,16,17,17,18,20,20,23,23,26,27,30,30,31,33,33,33,35,35,36,37,39,42,44,46,46,46,49,51,53,53,53,55,58,64,64,68,72,72,74,76,79,82,86,93,98,107,113,119,126,133,143,152,164,174,182,191,202,210,217,223,229,235,243,249,254,260,267,278,286,298,309,324,335,344,352,363,372,379,390,400,408,417,430,439,448,459,467,477,486,498]        }],
 
         responsive: {
             rules: [{
@@ -917,7 +917,7 @@ logarithmic </a>
         },
 
         xAxis: {
-            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01","Aug 02","Aug 03","Aug 04","Aug 05"]        },
 
         yAxis: {
             title: {
@@ -943,7 +943,7 @@ logarithmic </a>
             name: 'Deaths',
             color: '#FF9900',
             lineWidth: 5,
-            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,3,3,4,4,5,6,6,6,6,6,6,6,6,7,7,7,7,7,7,8,8,8,8,8,8,9,10,10,11,11,13,13,15,15,16,17,17,18,20,20,23,23,26,27,30,30,31,33,33,33,35,35,36,37,39,42,44,46,46,46,49,51,53,53,53,55,58,64,64,68,72,72,74,76,79,82,86,93,98,107,113,119,126,133,143,152,164,174,182,191,202,210,217,223,229,235,243,249,254,260,267,278,286,298,309,324,335,344,352,363,372,379,390,400,408,417,430,439,448,459]        }],
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,3,3,4,4,5,6,6,6,6,6,6,6,6,7,7,7,7,7,7,8,8,8,8,8,8,9,10,10,11,11,13,13,15,15,16,17,17,18,20,20,23,23,26,27,30,30,31,33,33,33,35,35,36,37,39,42,44,46,46,46,49,51,53,53,53,55,58,64,64,68,72,72,74,76,79,82,86,93,98,107,113,119,126,133,143,152,164,174,182,191,202,210,217,223,229,235,243,249,254,260,267,278,286,298,309,324,335,344,352,363,372,379,390,400,408,417,430,439,448,459,467,477,486,498]        }],
 
         responsive: {
             rules: [{
@@ -982,7 +982,7 @@ logarithmic </a>
         },
 
         xAxis: {
-            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01"]        },
+            categories: ["Feb 15","Feb 16","Feb 17","Feb 18","Feb 19","Feb 20","Feb 21","Feb 22","Feb 23","Feb 24","Feb 25","Feb 26","Feb 27","Feb 28","Feb 29","Mar 01","Mar 02","Mar 03","Mar 04","Mar 05","Mar 06","Mar 07","Mar 08","Mar 09","Mar 10","Mar 11","Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19","Mar 20","Mar 21","Mar 22","Mar 23","Mar 24","Mar 25","Mar 26","Mar 27","Mar 28","Mar 29","Mar 30","Mar 31","Apr 01","Apr 02","Apr 03","Apr 04","Apr 05","Apr 06","Apr 07","Apr 08","Apr 09","Apr 10","Apr 11","Apr 12","Apr 13","Apr 14","Apr 15","Apr 16","Apr 17","Apr 18","Apr 19","Apr 20","Apr 21","Apr 22","Apr 23","Apr 24","Apr 25","Apr 26","Apr 27","Apr 28","Apr 29","Apr 30","May 01","May 02","May 03","May 04","May 05","May 06","May 07","May 08","May 09","May 10","May 11","May 12","May 13","May 14","May 15","May 16","May 17","May 18","May 19","May 20","May 21","May 22","May 23","May 24","May 25","May 26","May 27","May 28","May 29","May 30","May 31","Jun 01","Jun 02","Jun 03","Jun 04","Jun 05","Jun 06","Jun 07","Jun 08","Jun 09","Jun 10","Jun 11","Jun 12","Jun 13","Jun 14","Jun 15","Jun 16","Jun 17","Jun 18","Jun 19","Jun 20","Jun 21","Jun 22","Jun 23","Jun 24","Jun 25","Jun 26","Jun 27","Jun 28","Jun 29","Jun 30","Jul 01","Jul 02","Jul 03","Jul 04","Jul 05","Jul 06","Jul 07","Jul 08","Jul 09","Jul 10","Jul 11","Jul 12","Jul 13","Jul 14","Jul 15","Jul 16","Jul 17","Jul 18","Jul 19","Jul 20","Jul 21","Jul 22","Jul 23","Jul 24","Jul 25","Jul 26","Jul 27","Jul 28","Jul 29","Jul 30","Jul 31","Aug 01","Aug 02","Aug 03","Aug 04","Aug 05"]        },
 
         yAxis: {
             title: {
@@ -1023,11 +1023,11 @@ logarithmic </a>
                 color: '#999',
                 lineWidth: 4,
                 showCheckbox: false,
-                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,2,0,2,0,1,1,0,1,2,0,3,0,3,1,3,0,1,2,0,0,2,0,1,1,2,3,2,2,0,0,3,2,2,0,0,2,3,6,0,4,4,0,2,2,3,3,4,7,5,9,6,6,7,7,10,9,12,10,8,9,11,8,7,6,6,6,8,6,5,6,7,11,8,12,11,15,11,9,8,11,9,7,11,10,8,9,13,9,9,11]            },
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,2,0,2,0,1,1,0,1,2,0,3,0,3,1,3,0,1,2,0,0,2,0,1,1,2,3,2,2,0,0,3,2,2,0,0,2,3,6,0,4,4,0,2,2,3,3,4,7,5,9,6,6,7,7,10,9,12,10,8,9,11,8,7,6,6,6,8,6,5,6,7,11,8,12,11,15,11,9,8,11,9,7,11,10,8,9,13,9,9,11,8,10,9,12]            },
             {
                 name: '3-day moving average',
                 type: 'spline',
-                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,2,0,1,1,1,0,1,1,2,1,2,1,3,1,1,1,1,1,1,0,1,1,1,2,3,2,1,1,1,2,2,1,1,1,1,4,3,3,3,3,2,1,2,3,3,5,5,7,7,7,6,7,8,9,10,10,10,9,10,9,9,7,6,6,7,6,7,5,6,8,9,10,11,12,13,11,10,9,9,9,9,10,9,9,10,11,10,10],
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,2,0,1,1,1,0,1,1,2,1,2,1,3,1,1,1,1,1,1,0,1,1,1,2,3,2,1,1,1,2,2,1,1,1,1,4,3,3,3,3,2,1,2,3,3,5,5,7,7,7,6,7,8,9,10,10,10,9,10,9,9,7,6,6,7,6,7,5,6,8,9,10,11,12,13,11,10,9,9,9,9,10,9,9,10,11,10,10,9,10,9,10],
                 lineWidth: 2,
                 color: '#FF9900',
                 selected: false,
@@ -1036,7 +1036,7 @@ logarithmic </a>
             }, {
                 name: '7-day moving average',
                 type: 'spline',
-                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,1,0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,2,2,1,2,1,1,1,1,1,1,0,2,1,2,1,2,2,1,2,1,1,1,2,2,2,2,3,3,2,3,2,3,2,3,4,5,5,6,6,7,7,8,8,8,9,10,10,9,9,9,8,7,8,6,7,6,6,7,7,8,9,10,11,11,10,11,11,10,9,9,10,9,9,10,10,10],
+                data: [null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0,1,0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,2,2,1,2,1,1,1,1,1,1,0,2,1,2,1,2,2,1,2,1,1,1,2,2,2,2,3,3,2,3,2,3,2,3,4,5,5,6,6,7,7,8,8,8,9,10,10,9,9,9,8,7,8,6,7,6,6,7,7,8,9,10,11,11,10,11,11,10,9,9,10,9,9,10,10,10,9,10,10,10],
                 lineWidth: 2,
                 color: '#ad6c0a',
                 selected: false,
@@ -1207,7 +1207,19 @@ logarithmic </a>
 <div class="row">
 <div class="col-md-12" id="news_block">
 <h2 align="left" id="news" style="margin-bottom: 50px;">Latest News</h2>
-<div class="news_date"><h4>August 2 (GMT)</h4></div><div id="newsdate2020-08-02"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_date"><h4>August 5 (GMT)</h4></div><div id="newsdate2020-08-05"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_body">
+<ul class="news_ul"><li class="news_li"><strong>439 new cases</strong> and <strong>12 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/el-salvador/">El Salvador</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://covid19.gob.sv/">source</a>]</span></li></ul>
+</div>
+</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-08-04">August 4&nbsp;&nbsp; <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-08-04"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_body">
+<ul class="news_ul"><li class="news_li"><strong>419 new cases</strong> and <strong>9 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/el-salvador/">El Salvador</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://covid19.gob.sv/">source</a>]</span></li></ul>
+</div>
+</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-08-03">August 3&nbsp;&nbsp; <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-08-03"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
+<div class="news_body">
+<ul class="news_ul"><li class="news_li"><strong>395 new cases</strong> and <strong>10 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/el-salvador/">El Salvador</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://covid19.gob.sv/">source</a>]</span></li></ul>
+</div>
+</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-08-02">August 2&nbsp;&nbsp; <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-08-02"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
 <div class="news_body">
 <ul class="news_ul"><li class="news_li"><strong>398 new cases</strong> and <strong>8 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/el-salvador/">El Salvador</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://covid19.gob.sv/">source</a>]</span></li></ul>
 </div>
@@ -1223,21 +1235,9 @@ logarithmic </a>
 <div class="news_body">
 <ul class="news_ul"><li class="news_li"><strong>389 new cases</strong> and <strong>9 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/el-salvador/">El Salvador</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://covid19.gob.sv/">source</a>]</span></li></ul>
 </div>
-</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-07-29">July 29 <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-07-29"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
-<div class="news_body">
-<ul class="news_ul"><li class="news_li"><strong>395 new cases</strong> and <strong>13 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/el-salvador/">El Salvador</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://covid19.gob.sv/">source</a>]</span></li></ul>
-</div>
-</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-07-28">July 28 <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-07-28"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
-<div class="news_body">
-<ul class="news_ul"><li class="news_li"><strong>411 new cases</strong> and <strong>9 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/el-salvador/">El Salvador</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://covid19.gob.sv/">source</a>]</span></li></ul>
-</div>
-</div></div><button style="margin-top:30px;" class="btn btn-light date-btn" data-date="2020-07-27">July 27 <i class="fa fa-chevron-circle-down"></i></button><div class="newsdate_div" style="display: none;" id="newsdate2020-07-27"><span id="updates" class="news_category_title">Updates</span><div class="news_post">
-<div class="news_body">
-<ul class="news_ul"><li class="news_li"><strong>405 new cases</strong> and <strong>8 new deaths</strong> in <strong><a style="text-decoration: underline;" href="/coronavirus/country/el-salvador/">El Salvador</a></strong>&nbsp;<span class="source">[<a class="news_source_a" target="_blank" href="https://covid19.gob.sv/">source</a>]</span></li></ul>
-</div>
 </div></div>
 <div style="width:100%; text-align:center;margin: 0 auto;">
-<a style="display: none;" href="javascript:void(0)" class="load-more__btn" data-country="SLV" data-country="SLV" data-days_count="7" id="lm_2020-07-27"><button class="btn">View More News <img alt="view more" style="width:16px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAADAFBMVEX///90dHRsbGttbWxtbWtzc3Jqamlqamhra2lra2ppaWhnZ2ZpaWdmZmVwcHBoaGZvb25sbGptbW12dnZubm51dXV2dnVwcG9zc3Nzc3R3d3doaGdycnJnZ2VxcXF1dXZ0dHVvb28AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF9IACodnd2d3UAAAAAAAABAAAAAAAtRCHzwHcAABkAAAAAADAAAAAAAAAAAAAtRHgAAHcAAAAAAAAAAAAAAABMAAB2d3YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvFCwVLHc0ca8AGfQQAID0YMA4ABkAGfQAAAAAgAAAAAAAAAAAAAUAYAAAAAAAAAAwT6ReqHcABvgAxQAAAAD0NAA4ABkAGfQAAAAAAAAAAAAAAAAAAGQAAAAYAAAAzj8AABgAAAAMAAAAGAD4VvheqAYIBvgAzj/FAAAvKAD8p1MAGfMsUPaeyXcAdy0AAAAAAAAAAAAAAAAAAAAAAAC7KAAspgh2auQZ9KDkTQC3dmoAAAAAAAAAAABrwAB2auQAAGAAAAAFAAAAAAAAAIAAgAAAwBAAAAAACIgAAAADAAAAAABCAEBeqAAABvgAAAD4XqgAAAYAAAAAAAAAArEAAAAYAAAAAAAAAAD0QABAABkAAAAAAAD0kAAAABkAAAAAAAAAAAAAAAAAAABmABBmZmYMOSAAAAAAAAIBAQA4ABkydFcZ9NDhHgAAdmoAAAAAAAL0uAAAABkAAAAAABgAgAAAAAAAAAAAAAAAAADEi2NXAAAAAXRSTlMAQObYZgAAAAFiS0dEi/JvR+AAAAAJcEhZcwAALiMAAC4jAXilP3YAAACPSURBVHja5ZJBDoAgDATdg1dCVESNQfj/J4USlSrgXXujM5Ql0DR/KoF7R7JO16PlfFAY07UGJs7nhe/gxpOHFJfh5y+5nIeR46u4jMi1SbnZoL1hgxG5U8qlxgQ4mrE6yicVv9VpWABZToamGQV+GnR+jgfDUi5Z4McMz1F6U28MNU6GrXEyUP85b/yrtQMhJwlGqKwmOAAAAABJRU5ErkJggg==" /></button></a>
+<a style="display: none;" href="javascript:void(0)" class="load-more__btn" data-country="SLV" data-country="SLV" data-days_count="7" id="lm_2020-07-30"><button class="btn">View More News <img alt="view more" style="width:16px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAADAFBMVEX///90dHRsbGttbWxtbWtzc3Jqamlqamhra2lra2ppaWhnZ2ZpaWdmZmVwcHBoaGZvb25sbGptbW12dnZubm51dXV2dnVwcG9zc3Nzc3R3d3doaGdycnJnZ2VxcXF1dXZ0dHVvb28AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF9IACodnd2d3UAAAAAAAABAAAAAAAtRCHzwHcAABkAAAAAADAAAAAAAAAAAAAtRHgAAHcAAAAAAAAAAAAAAABMAAB2d3YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvFCwVLHc0ca8AGfQQAID0YMA4ABkAGfQAAAAAgAAAAAAAAAAAAAUAYAAAAAAAAAAwT6ReqHcABvgAxQAAAAD0NAA4ABkAGfQAAAAAAAAAAAAAAAAAAGQAAAAYAAAAzj8AABgAAAAMAAAAGAD4VvheqAYIBvgAzj/FAAAvKAD8p1MAGfMsUPaeyXcAdy0AAAAAAAAAAAAAAAAAAAAAAAC7KAAspgh2auQZ9KDkTQC3dmoAAAAAAAAAAABrwAB2auQAAGAAAAAFAAAAAAAAAIAAgAAAwBAAAAAACIgAAAADAAAAAABCAEBeqAAABvgAAAD4XqgAAAYAAAAAAAAAArEAAAAYAAAAAAAAAAD0QABAABkAAAAAAAD0kAAAABkAAAAAAAAAAAAAAAAAAABmABBmZmYMOSAAAAAAAAIBAQA4ABkydFcZ9NDhHgAAdmoAAAAAAAL0uAAAABkAAAAAABgAgAAAAAAAAAAAAAAAAADEi2NXAAAAAXRSTlMAQObYZgAAAAFiS0dEi/JvR+AAAAAJcEhZcwAALiMAAC4jAXilP3YAAACPSURBVHja5ZJBDoAgDATdg1dCVESNQfj/J4USlSrgXXujM5Ql0DR/KoF7R7JO16PlfFAY07UGJs7nhe/gxpOHFJfh5y+5nIeR46u4jMi1SbnZoL1hgxG5U8qlxgQ4mrE6yicVv9VpWABZToamGQV+GnR+jgfDUi5Z4McMz1F6U28MNU6GrXEyUP85b/yrtQMhJwlGqKwmOAAAAABJRU5ErkJggg==" /></button></a>
 </div>
 <div style="width:100%;text-align:center; ">
 <div style="display: none;" class="loading lds-ellipsis">
@@ -1529,7 +1529,7 @@ logarithmic </a>
 <footer>
 <div class="footerlinks">
 <div style="margin-bottom:20px"><a href="/"><img src="/img/worldometers-logo-footer.png" border="0" class="img-footer"></a></div>
-<a href="/about/">about</a> | <a href="/faq/">faq</a> | <a href="/languages/">languages</a> | <a href="/licensing/">licensing</a> | <a href="/contact/">contact</a>
+<a href="/about/">about</a> | <a href="/faq/">faq</a> | <a href="/languages/">languages</a> | <a href="/contact/">contact</a>
 </div>
 <ul class="list-inline text-center socialbuttons">
 <li><a href="/newsletter-subscribe/" data-toggle="tooltip" data-placement="bottom" title="Newsletter"><i class="fa fa-bullhorn fa-round"></i></a></li>
