@@ -12,12 +12,11 @@ My first node.js app, so is only for studying.
       3d) After reached the 3c rate, continue applying the 3b daily-calc reducing 5% per day.
 4) Put the global data, the countries list, country data e projections into json objects, so they could be posted in any database and used in any front-end graphs.
 
-# Road
-2020-08-02 21:50:  3a OK
+# StartCalcProjections
 
-next: put all code for get countries data in a node module
+a) define argument for getCountriesData, to limit the number of countries treated
 
-next: convert data strings 'mmm dd' in objects to date objects
-next: work in 3b - calc projection
+b) convert data strings 'mmm dd' in objects to date objects
+c) work in 3b - calc projection
 
 

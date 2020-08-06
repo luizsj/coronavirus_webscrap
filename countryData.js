@@ -15,19 +15,19 @@
     const deathsDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-deaths-daily',");
 
     //only retrieves countries with a mininum of 10 deaths in total
-    const countriesList = get_wm_data_countries_list(content);
+    
 
-    const countriesListWithData = get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap);
-
-exports.getCountryData = function () {
-        return countriesListWithData;
+    exports.getCountryData = function (numOfCountries) {
+        const countriesList = get_wm_data_countries_list(content, numOfCountries);
+        return get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap, numOfCountries);
     }
 
-function get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap)
+function get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap, numOfCountries)
 {   let i = 0;
     
-    for (i=0; i < countriesList.length; i++)
-    //for (i=0; i < 3; i++)
+    let maxCountry = numOfCountries > countriesList.length ? countriesList.length : numOfCountries;
+
+    for (i=0; i < maxCountry; i++)
         {   let country = countriesList[i];
             let countryName = country.countryName;
             let filename = 'countries/'+countryName.replace(/ /g, '_')+'.txt';
@@ -38,22 +38,23 @@ function get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap)
     return countriesList;
 }
 
-function get_wm_data_countries_list(content)
+function get_wm_data_countries_list(content, numOfCountries)
 {   //search the content for table of countries
     objTable = get_wm_data_object_from_table(content, "<table id=\"main_table_countries_today\"");
-    countriesCleaned = get_wm_data_countries_list_only_essential_data(objTable);
+    countriesCleaned = get_wm_data_countries_list_only_essential_data(objTable, numOfCountries);
 
     return countriesCleaned;
 }
 
-function get_wm_data_countries_list_only_essential_data(objTable) {
+function get_wm_data_countries_list_only_essential_data(objTable, numOfCountries) {
     //now objTable is a array in which index is a country in key/value structure
     //need simplify this, getting only essential data
     //      countryName, countryLink, TotalCases, TotalDeaths, Population
     //console.log(objTable[0]);
     //Object have commas in some keys (wtf?)
     let countriesFinal = [];
-    for (let i=0; i < objTable.length; i++)
+    let maxCountry = numOfCountries > objTable.length ? objTable.length : numOfCountries;
+    for (let i=0; i < maxCountry; i++)
         {   
             let objCountry = objTable[i];
             //console.log(objCountry);
@@ -73,7 +74,7 @@ function get_wm_data_countries_list_only_essential_data(objTable) {
                         {   countriesFinal[countriesFinal.length] = country; }
                 }
         }
-    console.log(countriesFinal);
+    //console.log(countriesFinal);
     console.log(countriesFinal.length +' total countries listed');
     return countriesFinal;
 }
@@ -126,7 +127,7 @@ function get_wm_data_chart(content, strIdentifyChart)
     let contentJS = new Object;
     let dates = [];
     let values = [];
-    let dataMapped = new Object;
+    let dataMapped = new Array;
     casesDailyStart = content.indexOf(strIdentifyChart);
     //cortar o conteudo deste ponto até o final
     content = content.substring(casesDailyStart, content.length);
@@ -140,10 +141,35 @@ function get_wm_data_chart(content, strIdentifyChart)
     
     eval(" contentJS = "+contentCasesDaily);
     
+    //dates here are in string format 'mmm dd'
+    //for use in calc projections, need a simple way to locate values at actual_date - x days
+    //discover that shouldn't use object key/pair (date=value)
+    //          i.e. dataMapped[date] = value is a bad idea
+    //because objects don't guarantee the order
+    //instead, dataMapped should be an array that contains key/value
+    //          like dataMapped[index] = { date:  x,  value : y}
     dates = contentJS.xAxis.categories;
     values = contentJS.series[0].data;
+    let acumulated = 0;
+    let mobileSevenDaysTotal = 0;
+    let mobileSevenDaysAverage = 0;
     for (let i=0; i < dates.length; i++)
-        {   dataMapped[dates[i]] = values[i] ? values[i] : 0;  //return 0 when value is null
+        {   let item = new Object;
+            item.date = Date.parse(dates[i]+', 2020');
+            item.value = values[i] ? values[i] : 0;     //return 0 when value is null
+            acumulated += item.value;
+            item.acumulated = acumulated;
+            if (i > 0)
+                {   mobileSevenDaysTotal += item.value;
+                    if ( i <= 6 )
+                        {   mobileSevenDaysAverage = (mobileSevenDaysTotal/(i+1)).toFixed(2); }
+                    else {  mobileSevenDaysTotal -= dataMapped[i-7].value;
+                            mobileSevenDaysAverage = (mobileSevenDaysTotal/7).toFixed(2);
+                          }
+                }
+            item.mobileSevenDaysTotal = mobileSevenDaysTotal;
+            item.mobileSevenDaysAverage = mobileSevenDaysAverage;
+            dataMapped[i] = item;
         }
     return dataMapped;
 }
