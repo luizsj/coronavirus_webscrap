@@ -6,34 +6,35 @@
 
     //set X hours for minimum new web scrap
     //before this time, use last txt file instead
-    const minHoursForNewWebScrap = 6; 
+    const minHoursForNewWebScrap = 12; 
     const baseUrl = 'https://www.worldometers.info/coronavirus/';
 
-    const content = get_wm_content('wo_global.txt', baseUrl, minHoursForNewWebScrap);
+    exports.getCountryData = function (numOfCountries, forceData) {
+        const content = get_wm_content('wo_global.txt', baseUrl, minHoursForNewWebScrap);
 
-    const casesDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-cases-daily',");
-    const deathsDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-deaths-daily',");
-
-    //only retrieves countries with a mininum of 10 deaths in total
+        const casesDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-cases-daily',", new Object());
+        const deathsDaily = get_wm_data_chart(content, "Highcharts.chart('coronavirus-deaths-daily',", new Object());
     
-
-    exports.getCountryData = function (numOfCountries) {
+        //only retrieves countries with a mininum of 10 deaths in total        
         const countriesList = get_wm_data_countries_list(content, numOfCountries);
-        return get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap, numOfCountries);
+        
+        return get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap, numOfCountries, forceData);
     }
 
-function get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap, numOfCountries)
+function get_wm_countries_data(countriesList, baseUrl, minHoursForNewWebScrap, numOfCountries, forceData)
 {   let i = 0;
     
+    
     let maxCountry = numOfCountries > countriesList.length ? countriesList.length : numOfCountries;
-
     for (i=0; i < maxCountry; i++)
         {   let country = countriesList[i];
             let countryName = country.countryName;
             let filename = 'countries/'+countryName.replace(/ /g, '_')+'.txt';
             let content = get_wm_content(filename, baseUrl+country.countryLink, minHoursForNewWebScrap);
-            countriesList[i].casesDaily = get_wm_data_chart(content, "Highcharts.chart('graph-cases-daily',");
-            countriesList[i].deathsDaily = get_wm_data_chart(content, "Highcharts.chart('graph-deaths-daily',");
+            let forceCases = (countryName != 'Brazil')  ? new Object() : forceData.cases;
+            let forceDeaths = (countryName != 'Brazil')  ? new Object() : forceData.deaths;
+            countriesList[i].casesDaily = get_wm_data_chart(content, "Highcharts.chart('graph-cases-daily',", forceCases);
+            countriesList[i].deathsDaily = get_wm_data_chart(content, "Highcharts.chart('graph-deaths-daily',", forceDeaths);
         }
     return countriesList;
 }
@@ -54,7 +55,8 @@ function get_wm_data_countries_list_only_essential_data(objTable, numOfCountries
     //Object have commas in some keys (wtf?)
     let countriesFinal = [];
     let maxCountry = numOfCountries > objTable.length ? objTable.length : numOfCountries;
-    for (let i=0; i < maxCountry; i++)
+
+    for (let i=0; i < objTable.length; i++)
         {   
             let objCountry = objTable[i];
             //console.log(objCountry);
@@ -70,11 +72,23 @@ function get_wm_data_countries_list_only_essential_data(objTable, numOfCountries
                     country.totalCases = parseInt(objCountry.TotalCases.replace(/,/g, ''));
                     country.totalDeaths = parseInt(objCountry.TotalDeaths.replace(/,/g, ''));
                     country.population = get_wm_data_countries_list_only_essential_data_return_population(objCountry.Population);
+                    
                     if (( country.totalDeaths >= 10 ) && (country.population > 1000000))
-                        {   countriesFinal[countriesFinal.length] = country; }
+                        {   //store country with deaths and cases rates
+                            country.deathsRate = country.totalDeaths/country.population*1000000;
+                            country.casesRate = country.totalCases/country.population*1000000;
+                            countriesFinal[countriesFinal.length] = country; 
+                        }
                 }
         }
-    //console.log(countriesFinal);
+
+    //sort the array countriesFinal by deathsRate decreasing order
+    countriesFinal.sort(function(a, b) {
+        return b.deathsRate - a.deathsRate;
+      });
+    
+    countriesFinal = countriesFinal.slice(0, maxCountry);
+
     console.log(countriesFinal.length +' total countries listed');
     return countriesFinal;
 }
@@ -120,7 +134,7 @@ function get_wm_data_object_from_table(content, strIdentifyTable)
     return converted;
 }
 
-function get_wm_data_chart(content, strIdentifyChart)
+function get_wm_data_chart(content, strIdentifyChart, forceData)
 {   let casesDailyStart = 0;
     let casesDailyEnd = 0;
     let contentCasesDaily = '';
@@ -153,19 +167,40 @@ function get_wm_data_chart(content, strIdentifyChart)
     let acumulated = 0;
     let mobileSevenDaysTotal = 0;
     let mobileSevenDaysAverage = 0;
+
+    let hasForcedData = Object.keys(forceData).length > 0;
+    if (hasForcedData)
+        {   forceDates = Object.keys(forceData);
+            console.log('forceDates');
+            console.log(forceDates);
+        }
+
     for (let i=0; i < dates.length; i++)
         {   let item = new Object;
             item.date = Date.parse(dates[i]+', 2020');
-            item.value = values[i] ? values[i] : 0;     //return 0 when value is null
+            //need to know if this date is in forceDates
+            let newValue = -1;
+            if (hasForcedData) {
+                for (j=0; j < forceDates.length; j++) {
+                    if (Date.parse(forceDates[j]) == item.date) {
+                        newValue = forceData[forceDates[j]];
+                        console.log('forced value '+newValue);
+                    }
+                }
+            }
+            if (newValue == -1) {
+                newValue = values[i] ? values[i] : 0;     //return 0 when value is null
+            }
+            item.value = newValue;
             acumulated += item.value;
             item.acumulated = acumulated;
             if (i > 0)
                 {   mobileSevenDaysTotal += item.value;
                     if ( i <= 6 )
-                        {   mobileSevenDaysAverage = (mobileSevenDaysTotal/(i+1)).toFixed(2); }
+                        {   mobileSevenDaysAverage = parseFloat((mobileSevenDaysTotal/(i+1)).toFixed(2)); }
                     else {  mobileSevenDaysTotal -= dataMapped[i-7].value;
-                            mobileSevenDaysAverage = (mobileSevenDaysTotal/7).toFixed(2);
-                          }
+                            mobileSevenDaysAverage = parseFloat((mobileSevenDaysTotal/7).toFixed(2));
+                        }
                 }
             item.mobileSevenDaysTotal = mobileSevenDaysTotal;
             item.mobileSevenDaysAverage = mobileSevenDaysAverage;
@@ -187,10 +222,10 @@ function get_wm_content(filename, url, minHours)
         modifiedAt = fs.statSync(filename).mtimeMs;
         difference = (Date.now() - modifiedAt) / (60*60*1000);
         console.log('hours of last '+filename+' file: '+difference.toFixed(1));
+
         fexpired = difference >= minHours;
     }
-        
-
+    
     if ((!fexist) || (fexpired) ) {
         try {
             content = request('GET', url).body.toString();
