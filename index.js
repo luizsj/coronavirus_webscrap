@@ -33,24 +33,7 @@ console.log(forceData);
 
 
 let countriesList = countryData.getCountryData(NumCountries, forceData);
-//working in function get_wm_data_chart(content, strIdentifyC
-//to convert strings 'mmm dd' to real date values
-//console.log(countriesList[0]);
-/*
-for (i=0; i < NumCountries; i++)
-    {
-        console.log(countriesList[i].countryName);
-    }
 
-deaths = countriesList[0].deathsDaily;
-console.log('------------------');
-console.log(countriesList[0].countryName);
-for (i=1; i <= NumCountries; i++)
-    {   lastdate = deaths[deaths.length-i];
-        datestr = new Date(lastdate.date);
-        console.log(datestr.toDateString()+' : '+lastdate.mobileSevenDaysAverage);
-    }
-*/
 let daysToCalc = 120;
 PrintList.PrintListBrazil(countriesList, 30);
 countriesList = calcProjection.calculateProjections(countriesList, daysToCalc);
